@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Shinta Mauliantika</title><!--judul website-->
+        
+        <style> body {background-image: url(pantai.jpg)}</style><!--gambar latar pakai pantai.jpg-->
+    </head>
+    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body{ 
+                margin: 0; 
+                font-family: Arial, Helvetica, sans-serif;  
+            }
+    
+            .topnav{ 
+                overflow : hidden; 
+                background-color: #010203;
+            }
+            
+            .topnav a{
+                float: left; 
+                color: orangered; 
+                text-align: center; 
+                padding: 14px 16px; 
+                text-decoration: none; 
+                font-size: 17px; 
+             }
+    
+            .topnav a:hover{ 
+                background-color: #d6d6d6; 
+                color: grey; 
+            }
+        </style>
+    </head>
+
+<body>
+        <marquee scrollamount="10" height="40"><font size="6" color="white">Selamat Datang Di Website Shinta Mauliantika</font></marquee><!--tulisan awal
+            berjalan dengan ukuran huruf 6pixel dan warnanya putih-->
+            <!--fungsi div untuk menampung beberapa element menjadi 1 perintah-->
+        <div style="text-align: right"><!--perataan teks di kanan-->
+        <div id="hasil"></div>
+        <script>
+            var tanggal = new Date();
+            document.getElementById("hasil").innerHTML = tanggal;
+        </script>
+        </div>
+
+        <div class="topnav"><!--memanggil bilah navigasi dan html yang ada di file TugasPertama-->
+            <a href="perkenalandiri.html" > HALAMAN UTAMA</a><!--memanggil html perkenalandiri-->
+            <a href="pendidikan.html">RIWAYAT PENDIDIKAN</a><!--memanggil html pendidikan-->
+        </div>
+
+        <figure align="right"><!--menangkup figur gambar dan sejenisnya, perataan kanan-->
+            <img src="toga.jpg" align="right" width="250" height="200"/><!--mengambil gambar toga.jpg di dalam file-->
+        </figure>
+
+        <h4>PENDIDIKAN YANG PERNAH SAYA TEMPUH</h4><!--membuat heading-->
+            <h6 style="text-indent:0.4in"><font face="Bell MT"size="4">Hai Teman-teman di Halaman ini saya akan memberi tau tentang dimana saja pendidikan-pendidikan yang sudah saya tempuh.<br>
+            Karena saya tinggal di Desa Buduan Kec. Suboh Kab. Situbondo, juga saya anak tunggal, keluarga saya khususnya 
+            ibu saya tidak ingin saya sekolah jauh dari tempat tinggal saya. Oleh karena itu sejak sekolah TK(Taman Kanak-Kanak) hingga SMA(Sekolah Menengah Atas) hanya di kec. Suboh 
+            saja. tetapi pada saat saya lulus SMA(Sekolah Menengah Atas) saya diperbolehkan untuk melanjutkan pendidikan keluar dari Kab.Situbondo. Saya memilih kota Jember
+            karena dekat dengan Kota asal saya, sebab ibu saya menyarankan agar tidak jauh-jauh dari kota asal saya. jadi tahun kemarin saya 
+            mendaftar di Politeknik Negeri Jember dan Alhamdulillah lolos. untuk lebih lengkapnya riwayat pendidikan saya bisa dilihat 
+            dibawah ini. Terimakasih^^.</font></h6>
+            <h3><b><font face="Bell MT" size="5" color="maroon">Pendidikan Saya : </font></b></h3>
+            <!--membuat heading tulisan tebal, jeni font Bell MT ukuran font 5, warna maroon-->
+            <!--membuat timeline-->
+            <div class="timeline">
+                <div class="container left">
+                    <div class="content">
+                        <h4>2004 - 2006</h4>
+                        <p>TK PGRI 1 SUBOH, Widuri RT 02/ RW 07 Kec. Suboh Kab. Situbondo</p>
+                    </div>
+                </div>
+
+                <div class="container left">
+                    <div class="content">
+                        <h4>2006 - 2007</h4>
+                        <p>SD Negeri 1 Buduan Kec. Suboh Kab. Situbondo<br>Hanya kelas 1 SD</p>
+                    </div>
+                </div>
+
+                <div class="container left">
+                    <div class="content">
+                        <h4>2007 - 2008</h4>
+                        <p>SD Negeri 2 Besuki Kec. Besuki Kab. Situbondo<br>Kelas 2 - 3 SD</p>
+                    </div>
+                </div>
+
+                <div class="container left">
+                    <div class="content">
+                        <h4>2008 - 2012</h4>
+                        <p>SD Negeri 2 Buduan Kec. Suboh Kab. Situbondo<br>Kelas 4-6 SD</p>
+                    </div>
+                </div>
+
+                <div class="container left">
+                    <div class="content">
+                        <h4>2012 - 2015</h4>
+                        <p>SMP Negeri 1 Suboh Kec. Suboh Kab. Situbondo<br> Di kelas 7A-8A-9A</p>
+                    </div>
+                </div>
+
+                <div class="container left">
+                    <div class="content">
+                        <h4>2015 - 2018</h4>
+                        <p>SMA Negeri 1 Suboh Kec. Suboh Kab. Situbondo<br>Jurusan MIPA<br> Lintas Minat Ekonomi</p>
+                    </div>
+                </div>
+
+                <div class="container left">
+                    <div class="content">
+                        <h4>2018 - Sekarang</h4>
+                        <p>Politeknik Negeri Jember Kec. Sumbersari Kab. Jember<br> Program Studi Teknik Informatika<br>
+                        Jurusan Teknologi Informasi</p>
+                    </div>
+                </div>
+            </div>
+
+            <center><p style="text-indent: 0.4in"><font face="Bell MT" size="4" color="white"><b>^^TERIMAKASIH SUDAH MENYEMPATKAN UNTUK MEMBACA WEBSITE SAYA<br>WASSALAMUALAIKUM
+                WARAHMATULLAHI WABARAKATUH^^</b></font></p></center>
+</body>
